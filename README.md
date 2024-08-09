@@ -17,13 +17,20 @@ La estructura del proyecto es la siguiente:
 
 scss
 Copiar código
+
 project-root/
 │
+
 ├── docker-compose.yml
+
 ├── .env
+
 ├── config.json
+
 ├── Dockerfile
+
 └── src/
+
     └── (código fuente de la aplicación)
 ### 4.1. docker-compose.yml
 Este archivo define los servicios que se ejecutarán en contenedores Docker, incluyendo la base de datos PostgreSQL y la aplicación. También configura las redes necesarias para la comunicación entre los servicios.
@@ -43,9 +50,11 @@ Define el entorno para construir la imagen de la aplicación. Incluye las depend
 ### 4.5. src/
 Contiene el código fuente de la aplicación.
 
-##5. Dependencias
+## 5. Dependencias
 PostgreSQL: Base de datos utilizada para el almacenamiento de datos.
+
 Node.js: Entorno de ejecución para la aplicación.
+
 Sequelize: ORM para interactuar con PostgreSQL.
 ## 6. Configuración
 ### 6.1. docker-compose.yml
